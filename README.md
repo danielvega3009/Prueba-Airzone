@@ -2,10 +2,10 @@
 
 En esta prueba se han desarrollado los siguientes puntos:
 Especificaciones:
- << • El clima se obtiene de https://openweathermap.org/api (necesario hacer cuenta gratuita y 
+ ### • El clima se obtiene de https://openweathermap.org/api (necesario hacer cuenta gratuita y 
   obtener clave api para las peticiones). El API que nos interesa del proveedor de clima es la 
   One Call API (https://openweathermap.org/api/one-call-api). De la respuesta de esa petición
-  nos interesa únicamente las secciones “hourly” y “daily”.>>
+  nos interesa únicamente las secciones “hourly” y “daily”.###
   • El microservicio deberá implementar un mecanismo de caché:
   ◦ Si se pide el clima para una ubicación por primera vez, se realiza la petición a 
   openweathermap y se almacena en BBDD. Se debe registrar la hora a la que se ha 

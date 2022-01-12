@@ -1,5 +1,8 @@
 # Prueba-Airzone
 
+Para probar el proyecto ejecutar : npm run dev
+
+
 En esta prueba se han desarrollado los siguientes puntos:
 Especificaciones:
 

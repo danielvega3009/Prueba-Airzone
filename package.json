@@ -1,0 +1,26 @@
+{
+  "name": "prueba-airzone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2",
+    "mongo": "^0.1.0",
+    "mongodb": "^4.3.0",
+    "mongoose": "^6.1.6",
+    "monk": "^7.3.4",
+    "node-cache": "^5.1.2",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

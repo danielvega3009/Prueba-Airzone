@@ -1,0 +1,12 @@
+GET http://localhost:3000/estudiantes
+###
+POST http://localhost:3000/estudiantes
+Content-Type: application/json
+
+{
+    "nombre": "pepita",
+    "correo": "gmail@gmail.com"
+}
+###
+
+GET https://api.openweathermap.org/data/2.5/onecall?lat=33.14&lon=-94.14&exclude=hourly,daily&appid=1512c64803d2ce535e4c80ed7a8110aa
